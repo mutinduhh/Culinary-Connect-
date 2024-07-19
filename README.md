@@ -21,6 +21,8 @@ This program is built purely with javascript using th visual code enviroment. It
 
 # Support and contact details
 For any issues and or comments please email me at jonathan.mutinda@student.moringaschool.com
-
+# If you want to follow along with me 
+If you wna to view the current slides i am using here but for now please try and use your moringa account as it will be later accessible to everyone 
+https://docs.google.com/presentation/d/1LZ4VCt812J3loBJ6dr_lADqGVrsAPwZldXkXioZEvLc/edit#slide=id.ga073618e60_0_174
 # License
 Apache License 2.0
