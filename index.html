@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Meal For Your Ingredients</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel = "stylesheet" href = "assets/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
+        <div class="logo"><a href="#">Culinary Connect</a> </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://docs.google.com/presentation/d/1LZ4VCt812J3loBJ6dr_lADqGVrsAPwZldXkXioZEvLc/edit#slide=id.ga073618e60_0_174"target="_blank">About</a></li>
+            <button><a href="src/Sign In.html">Sign In</a></button>
+            <button><a href="src/Sign Up.html">Sign Up</a></button>
+        </ul>
+    </div>
+</nav>
+
+  <div class = "container">
+    <div class = "meal-wrapper">
+      <div class = "meal-search">
+        <h2 class = "title">Find Meals For Your Ingredients</h2>
+        <blockquote>"One Cannot think well, love well, sleep well, if one has not dined well."<br>
+          <cite>- Virgina Wolf</cite>
+        </blockquote>
+
+        <div class = "meal-search-box">
+          <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+          <button type = "submit" class = "search-btn btn" id = "search-btn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "meal-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+          <!-- meal item -->
+          <!-- <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "food.jpg" alt = "food">
+            </div>
+            <div class = "meal-name">
+              <h3>Potato Chips</h3>
+              <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+          </div> -->
+          <!-- end of meal item -->
+        </div>
+      </div>
+
+
+      <div class = "meal-details">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "meal-details-content">
+          <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footerContainer">
+        <h3>Contact Me</h3>
+        <p>Get in touch with Me!</p>
+        <address>
+          <strong>Address:</strong> 123 Kindaruma St, Killimani, Kenya <br>
+          <strong>Phone:</strong> (+254)781-930-666<br>
+          <strong>Email:</strong> <a href="mailto:info@example.com">jonathan.mutinda@student.moringaschool.com</a>
+        </address>
+        <h4>Leave a Comment</h4>
+        <form>
+          <label for="comment">Your Comment:</label>
+          <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form> 
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Jonathan Mutinda</span></p>
+    </div>
+</footer>
+
+  <script src = "src/index.js"></script>
+</body>
+</html>
