@@ -1,3 +1,4 @@
+/* Nav Bar*/
 .navbar{
   background: rgb(74, 211, 188); 
   font-family: calibri; 
@@ -9,10 +10,19 @@
   align-items: center; 
   justify-content: space-between;
 }
+.logo {
+  margin-right: 20px; 
+}
+.logo img {
+  width: 50px;
+  height: 50px; 
+  margin: 10px; 
+}
 .logo a{
   font-size: 35px; 
   font-weight: 600; 
   color: white;
+  text-decoration: none;
 }
 li{
   list-style: none; 
@@ -37,9 +47,10 @@ button a{
   color: white; 
   font-weight: bold; 
   font-size: 15px;
+  text-decoration: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
+/* Body area */
 *{
   padding: 0;
   margin: 0;
@@ -56,7 +67,6 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/*  */
 .btn{
   font-family: inherit;
   cursor: pointer;
@@ -71,7 +81,6 @@ body{
   margin-bottom: 1rem;
 }
 
-/*  */
 .container{
   min-height: 100vh;
 }
@@ -93,6 +102,7 @@ body{
   display: flex;
   align-items: stretch;
 }
+/* search */
 .search-control,
 .search-btn{
   width: 100%;
@@ -128,6 +138,7 @@ body{
 .search-btn:hover{
   background: var(--tenne-tawny-dark);
 }
+/* Results */
 .meal-result{
   margin-top: 4rem;
 }
@@ -215,7 +226,7 @@ body{
 }
 
 
-/* js related */
+/* Onclick of the recipe*/
 .showRecipe{
   display: block;
 }
@@ -303,8 +314,6 @@ body{
 .recipe-link a:hover{
   opacity: 0.8;
 }
-
-
 /*  */
 .notFound{
   grid-template-columns: 1fr!important;
@@ -313,11 +322,6 @@ body{
   font-weight: 600;
   width: 100%;
 }
-
-
-
-
-
 
 /* Media Queries */
 @media screen and (min-width: 600px){
